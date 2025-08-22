@@ -1,0 +1,23 @@
+{
+  "name": "acr-lite",
+  "version": "1.0.0",
+  "description": "Single-file web app (Node.js + Express + SQLite)",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node src/server.js",
+    "build": "echo 'No build step required for Node.js app'"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "better-sqlite3": "^11.8.1",
+    "multer": "^1.4.5-lts.1",
+    "bcrypt": "^5.1.1",
+    "uuid": "^8.3.2",
+    "express-session": "^1.17.1",
+    "mime-types": "^2.1.27"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
